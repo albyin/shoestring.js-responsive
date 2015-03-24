@@ -483,3 +483,13 @@ ul.nav.navbar-right {
   float: left;
   width: 33.3333%;
   padding: 30px; }
+
+@media (max-width: 1000px) {
+  .col-md-6 {
+    width: 50%; }
+  .col-lg-6 {
+    width: 100; } }
+
+@media (max-width: 600px) {
+  .col-sm-12 {
+    width: 100%; } }

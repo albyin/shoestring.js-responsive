@@ -1,0 +1,18 @@
+@media (max-width: 1000px) {
+     //if page is less than 800 px
+     //change any tag with both col-lg-4 and col-md-6 to take 100% width
+
+     .col-md-6 {
+          //why doesn't this work with only one .col-lg-4 selector?
+          //order of definition matters. if we import in the beginning, later definitions in shoestring.scss will overwrite
+          width: 50%;
+
+     }
+
+}
+
+@media (max-width: 600px){
+     .col-sm-12 {
+          width: 100%;
+     }
+}
